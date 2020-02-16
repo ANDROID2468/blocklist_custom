@@ -21,7 +21,7 @@ echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     echo "The blocklist folder will Self-destruct in 0 sec!"
-    rm -rf ~/blocklist_costom/
+    rm -rf ~/blocklist_custom/
     echo "BOOM!"
     echo "..."
 fi
