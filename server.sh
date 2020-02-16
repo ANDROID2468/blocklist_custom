@@ -9,12 +9,15 @@ echo "Welcome to the host update server!"
 while :
 do
   echo "Hi!"
+  rm -f blacklist
+  echo "Downloading costom blacklist file..."
+  curl -O https://github.com/ANDROID2468/blocklist_custom/blob/master/blacklist
   echo "now running hosts updater"
   rm -f out/hosts
   python updateHostsFile.py
-  echo "coping host file to out folder"
+  echo "copying host file to out folder"
   cp /etc/hosts ~/hosts/out/
   echo "done, see ya in a week!"
-	echo "Press [CTRL+C] to stop.."
+	echo "If you want to kill me, press [CTRL+C].."
 	sleep 604800
 done
