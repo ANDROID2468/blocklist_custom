@@ -1,9 +1,9 @@
 {
-    "name": "costem bolck list",
+    "name": "costom bolck list",
     "description": "Categorized hosts files for DNS based content blocking",
-    "homeurl": "https://github.com/tiuxo/hosts",
+    "homeurl": "https://github.com/ANDROID2468/blocklist_custom",
     "frequency": "occasional",
-    "issues": "https://github.com/tiuxo/hosts/issues",
-    "url": "https://raw.githubusercontent.com/tiuxo/hosts/master/social",
-    "license": "CC BY 4.0"
+    "issues": "https://github.com/ANDROID2468/blocklist_custom/issues",
+    "url": "https://raw.githubusercontent.com/ANDROID2468/blocklist_custom/master/extensions/costom/hosts",
+    "license": "none"
 }
