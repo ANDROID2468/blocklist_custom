@@ -6,3 +6,6 @@
 # 'example.com':
 
 # 0.0.0.0 example.com
+#added lbry to blocklist because its turning into a porn site
+0.0.0.0 lbry.com
+0.0.0.0 lbry.tv
