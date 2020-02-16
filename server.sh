@@ -11,7 +11,7 @@ do
   echo "Hi!"
   rm -f blacklist
   echo "Downloading costom blacklist file..."
-  curl -O https://github.com/ANDROID2468/blocklist_custom/blob/master/blacklist
+  curl -O https://raw.githubusercontent.com/ANDROID2468/blocklist_custom/master/blacklist
   echo "now running hosts updater"
   rm -f out/hosts
   python updateHostsFile.py
